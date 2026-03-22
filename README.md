@@ -14,11 +14,11 @@ Finding open study spaces on campus can be difficult, especially during peak hou
 
 ## How It Works
 
--Ultrasonic sensors detect room occupancy
--Data is sent to the backend via a custom hardware API
--Backend processes and aggregates incoming data
--REST APIs expose real-time occupancy information
--React frontend fetches and displays updates
+- Ultrasonic sensors detect room occupancy
+- Data is sent to the backend via a custom hardware API
+- Backend processes and aggregates incoming data
+- REST APIs expose real-time occupancy information
+- React frontend fetches and displays updates
 
 ## Challenges & Learnings
 
