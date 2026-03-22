@@ -2,7 +2,7 @@
 
 Study Sphere is a full-stack web application built to provide **real-time room occupancy updates** to help students identify available study spaces. The project was developed during a 24-hour hackathon and focuses on low-latency updates, hardware–software integration, and a simple, responsive user experience.
 
-## Overview
+## Problem addressed
 
 Finding open study spaces on campus can be difficult, especially during peak hours. Study Sphere addresses this problem by collecting live occupancy data from ultrasonic sensors installed in rooms and displaying the information through a web interface. The system is designed to be fast, reliable, and easy to use so students can quickly check room availability.
 
@@ -14,7 +14,11 @@ Finding open study spaces on campus can be difficult, especially during peak hou
 
 ## How It Works
 
-Ultrasonic sensors detect room occupancy and send data to the backend through a custom hardware API. The backend processes and aggregates this data, then exposes it through REST endpoints. The React frontend retrieves these updates and displays room availability in near real time, with end-to-end response latency under 200 ms during testing.
+-Ultrasonic sensors detect room occupancy
+-Data is sent to the backend via a custom hardware API
+-Backend processes and aggregates incoming data
+-REST APIs expose real-time occupancy information
+-React frontend fetches and displays updates
 
 ## Challenges & Learnings
 
